@@ -1,0 +1,15 @@
+lib/
+  ├── main.dart                 # Точка входа в приложение
+  ├── models/                   # Модели данных
+  │   ├── device.dart           # Модель устройства
+  │   └── oxygen_reading.dart   # Модель показаний кислорода
+  ├── screens/                  # Экраны приложения
+  │   ├── home_screen.dart      # Главный экран с показаниями
+  │   ├── device_list.dart      # Список обнаруженных устройств
+  │   └── settings_screen.dart  # Настройки приложения и уведомлений
+  ├── services/                 # Сервисы
+  │   ├── bluetooth_service.dart # Сервис для работы с Bluetooth
+  │   └── notification_service.dart # Сервис для уведомлений
+  └── widgets/                  # Повторно используемые виджеты
+      ├── device_card.dart      # Карточка устройства
+      └── oxygen_gauge.dart     # Виджет для отображения показаний

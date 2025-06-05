@@ -1,0 +1,16 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  # Для работы с Bluetooth
+  flutter_blue_plus: ^1.14.11
+  # Для хранения настроек
+  shared_preferences: ^2.2.0
+  # Для построения графиков
+  fl_chart: ^0.63.0
+  # Для уведомлений
+  flutter_local_notifications: ^14.1.1
+  # Для отправки SMS
+  flutter_sms: ^2.3.3
+  # Для работы с состоянием
+  provider: ^6.0.5

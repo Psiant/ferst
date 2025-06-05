@@ -1,0 +1,11 @@
+В файл ios/Runner/Info.plist нужно добавить описания разрешений:
+
+<dict>
+    <!-- Bluetooth permissions -->
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Приложению необходим Bluetooth для подключения к датчикам кислорода</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Приложению необходим Bluetooth для подключения к датчикам кислорода</string>
+    
+    <!-- ... остальное содержимое Info.plist ... -->
+</dict>

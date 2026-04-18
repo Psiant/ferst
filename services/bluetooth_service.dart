@@ -28,9 +28,9 @@ class BluetoothService with ChangeNotifier {
     initBluetooth();
   }
   
-  // Инициализация Bluetooth
+  // Инициализация 
   Future<void> initBluetooth() async {
-    // Проверка, включен ли Bluetooth
+    // Проверка
     if (await flutterBlue.isOn) {
       startScan();
     } else {
